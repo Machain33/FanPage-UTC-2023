@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .banner-principal{
+    display: flex;
+    height: 100vh;  
+    align-items: center;
+    padding: 0px 30px;
+
+  
+  }
+  .bienvenida>h1{
+     font-size:40px;
+    text-transform: capitalize;
+    color:#319854;
+  }
+  .bienvenida>p{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #555
+  }
+  .inicio-utc, .mensaje{
+    border: none;
+    color: white;
+    background: #319854;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px
+  }
+  .inicio-utc:hover{
+    background: #62f393
+  }
+.mensaje{
+  background: #777
+}
+.mensaje:hover{
+  background: #999
+}
+
+  .bienvenida{
+    padding: 0px 50px;
+  }
+  .img-banner-principal{
+    width: 450px
+  }
+  
+@media(max-width:900px){
+  .banner-principal{
+    flex-direction: column-reverse;
+    justify-content: flex-end
+  }
+}
+@media(max-width:600px){
+  .img-banner-principal{
+    width: 90%
+  }
+  .bienvenida>h1{
+    font-size: 25px;
+  }
+  .bienvenida{
+    padding: 10px
+  }
+}
