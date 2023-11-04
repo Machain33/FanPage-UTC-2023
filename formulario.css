@@ -1,0 +1,151 @@
+
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 600px;
+    color: white;
+}
+.formulario form{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 60% !important;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2em;
+    background-color:rgba(3,62,58, 0.7);
+    overflow: hidden;
+}
+
+.formulario .col-12{
+    display: flex;
+}
+.formulario h3{
+    margin-top: 0.5em;
+    color: white;
+}
+.form-head{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.form-head img{
+    height: 100%;
+}
+.formulario .col-6{
+    padding: 1em;
+}
+.cor{
+    padding: 1em;
+}
+.form-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario button{
+    margin-top: 5px;
+    width: 100px;
+    margin-bottom: 2em;
+}
+.acept{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulario input{
+    border-color: green;
+}
+footer{
+    background-color: rgb(46, 46, 46);
+}
+footer h4{
+    color: white;
+    padding: 20px;
+}
+footer a{
+ color: white;
+ text-decoration: none;
+}
+.contacto{
+    width: 80%;
+   display: grid;
+   grid-template-columns: 33.3% 33.3% 33.3%;
+   margin-bottom: 15px;
+   font-size: 16px;
+}
+.contacto p{
+    margin: 0;
+}
+.contacto i{
+    font-size: 25px;
+}
+.call, .mail, .ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    height: 80px;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.call:hover i, .mail:hover i, .ubicacion:hover i{
+ color: rgba(3,62,58);
+}
+.call:hover, .mail:hover, .ubicacion:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgba(3,62,58);
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.redes i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    margin-bottom: 0.2em;
+}
+
+.tiktok{
+    background-color: black;
+    border-radius: 100%;
+}
+.facebook{
+    background-color: #3b5998;
+    border-radius: 100%;
+}
+.facebook i{
+    font-size: 45px;
+}
+.whatsapp{
+    background-color: #25D366;
+    border-radius: 100%;
+}
+
+.instagram{
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    border-radius: 100%;
+}
+
+.contacto-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
