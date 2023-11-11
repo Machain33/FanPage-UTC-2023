@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universidad Tecnológica de la Costa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
@@ -12,8 +11,9 @@
     <link href="normalize.css" rel="stylesheet"">
     <link rel="preload" href="css/estilos.css" as="style">
     <link href="estilos.css" rel="stylesheet">
-  
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
     <header>
@@ -120,47 +120,114 @@
         <input class="input-text type="email" placeholder="Tu Email">
     </div>
 
-    <div class="campo">
-        <label>Mensaje</label>
-        <textarea class="input-text"></textarea>
-    </div>
+    <section class="formulario ">
+        <form>
+            <div class="form-head">
+                    <img src="logo.jpg" alt="fondo-form">
+            </div>
+            <div>
+                <h3>Datos personales</h3>
+                <p>Escribe tus datos personales si deseas recibir mas información acerca de nuestra universidad.</p>
+                <div class="mb-3 col-12">
+            <div class="col-6">
+              <label for="exampleInputEmail1" class="form-label">Nombre(s):</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="col-6">
+              <label for="exampleInputPassword1" class="form-label">Apellido paterno:</label>
+              <input type="text" class="form-control" required>
+            </div>
+        </div>
+
+            <div class="mb-3 col-12">
+            <div class="col-6">
+                <label for="exampleInputPassword1" class="form-label">Apellido materno:</label>
+                <input type="text" class="form-control" required>
+              </div>
+
+              <div class="col-6">
+                <label for="exampleInputPassword1" class="form-label">Teléfono:</label>
+                <input type="text" class="form-control" required>
+            </div>
+        </div>
+
+            <div class="mb-3 cor">
+                <label for="exampleInputPassword1" class="form-label">Correo electrónico:</label>
+                <input type="text" class="form-control" required>
+            </div
+
+            <div class="mb-3 acept">
+                <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label mx-1" for="exampleCheck1">Deseo recibir ofertas a mi correo</label>
+            </div>
+              <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+
+          </form>
+    </section>
+
+    <!-- Aqui finaliza el formulario -->
+
+    <footer>
+        <h4 class="text-center">¡Contactanos!</h4>
+        <div class="contacto-f">
+        <div class="contacto">
+
+            <a href="tel:+523232358000">
+            <div class="call">
+                <i class="fa-solid fa-phone-volume"></i>
+            <p>Llamar</p>
+            </div>
+            </a>
+
+            <a href="mailto:inscripciones@utdelacosta.edu.mx">
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Correo</p>
+                </div>
+            </a>
+
+            <a href="https://www.google.com.mx/maps/place/Universidad+Tecnol%C3%B3gica+de+La+Costa/@21.8205848,-105.1913106,17z/data=!3m1!4b1!4m6!3m5!1s0x8420a8ceea11c975:0x263dec0370f9d5f3!8m2!3d21.8205798!4d-105.1887357!16s%2Fg%2F11r7pll4w?entry=ttu" target="_blank">
+                <div class="ubicacion">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>Carretera Santiago entronque int no 15 km 5, 63300 Santiago Ixcuintla, Nay.</p>
+                </div>
+            </a>
 
     </div>
-       <div>
-        <input class="boton" type="submit" value="Enviar">
-       </div>
-    </fieldset>
-    </form>
-</class>
-</section>
-</main>
-<div class="estilo-footer">
-    <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-check" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-            <path d="M11.87 21.48a1.992 1.992 0 0 1 -1.283 -.58l-4.244 -4.243a8 8 0 1 1 13.355 -3.474" />
-            <path d="M15 19l2 2l4 -4" />
-          </svg>
-         
-       Carretera santiago entronque internacional no.15 km 5, Santiago Ixcuintla</p>
-      
-       <p>
-       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-landline-phone" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M20 3h-2a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
-        <path d="M16 4h-11a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h11" />
-        <path d="M12 8h-6v3h6z" />
-        <path d="M12 14v.01" />
-        <path d="M9 14v.01" />
-        <path d="M6 14v.01" />
-        <path d="M12 17v.01" />
-        <path d="M9 17v.01" />
-        <path d="M6 17v.01" />
-      </svg>
-      (323) 235 80 00</p>
+</div>
+
+    <div class="redes">
+
+        <a href="https://www.tiktok.com/@utdelacosta" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            <div class="tiktok">
+            </div>
+        </a>
+        
+        <a href="https://web.facebook.com/pages/Ut-de-La-Costa/111807402172603" target="_blank">
+            <div class="facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=3231743139" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            <div class="whatsapp">
+            </div>
+        </a>
+
+        <a href="https://www.instagram.com/utdelacosta/" target="_blank">
+            <div class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </a>
+
     </div>
-</footer>
-    
+      </footer>
+
+      <script src="https://kit.fontawesome.com/64fb6fed2d.js" crossorigin="anonymous"></script>
 </body>
 </html>
