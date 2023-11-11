@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+      padding:0px;
+      box-sizing:border-box;
+    }
+    
+    .info{  
+      width: 40%;
+      }
+    .recursos{
+    width: 60%;
+      display: flex;
+      flex-wrap: wrap
+    }
+    .item-recurso{
+      width: 40%;
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 5%;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+  
+      
+    }
+    .ofrecemos{
+    display: flex;
+    }
+    .info{
+      align-self: center;
+      padding: 20px
+    }
+    .item-recurso>div{
+      width: 63px;
+      height: 60px;
+      align-self: center;
+      align-self: center;
+      padding: 20px;
+      background: #d9f6e1;
+      justify-self: center;
+      font-size: 25px;
+      color: #6dab7f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px
+    }
+    .item-recurso>h3{
+      margin-bottom: 25px;
+      text-transform: capitalize;
+      color: #6dab7f;
+      font-weight: 100;
+      font-size: 25px
+    }
+    
+    .item-recurso>p{
+      font-style: italic;
+      margin-bottom: 15px;
+      
+    }
+    .item-recurso>button{
+      text-decoration: none;
+      border:none;
+      background:none;
+      text-transform: uppercase;
+      color: #444;
+      border-bottom: 1px solid ;
+      align-self: center;
+      justify-self:center;
+      font-weight:500
+    }
+    
+  .info>h2{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6dab7f;
+  text-transform: capitalize
+  }
+  .info>p{
+  margin-bottom: 35px
+  }
+  .info>button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color:  #d9f6e1;
+  background: #6dab7f;
+  font-weight: 600;
+  text-transform: capitalize
+  }
+  .info>button:hover{
+  background: #297248 
+  }
+  
+.experiencias{
+  text-transform: capitalize;
+  margin-top: 50px
+}
+.experiencias>h3{
+  display: flex;
+  padding: 0px 20px;
+  font-weight: 600;
+}
+.experiencias>p{
+  padding: 0px 20px ;
+  margin-top: -20px;
+ margin-bottom:40px;
+  font-style: italic
+}
+.viajes-estudios{
+  color: #6dab7f;
+}
+  @media(max-width:900px){
+    .ofrecemos{
+      flex-direction: column
+    }
+    .recursos, .info{
+      width: 95%
+    }
+  }
+  @media(max-width:500px){
+    .item-recurso{
+      width: 100%;
+      margin-bottom: 50px
+    }
+    
+  }
